@@ -1,12 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cogoport - Book & Manage Shipments & Cargo Online</title>
+    <style>
+        *{ 
+            box-sizing: border-box;
+        }
+        .outer_div{
+            background-image: url('./images/home-banner-background-1.jpeg');
+
+            
+        }
+        .navBar{
+            position:fixed;
+            background-color:#fbdc00;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 8px 16px;
+            font-weight: 500;
+            font-size: 14px;
+            font-family:"Ubuntu",sans-serif;
+            color: #000;
+        }
+        .unordered_list{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+        .list_items{
+            margin-left: 20px;
+            border-radius: 4px;
+        }
+        .list_item_container{
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .login_signup_container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: auto;
+            font-family: "Ubuntu",sans-serif;
+            font-weight:500;
+            padding-left: 40px;
+            font-size: 14px;
+            color: #000;
+        }
+        .login_container{
+            display: flex;
+            align-items: center;
+            margin-right: 16px;
+            font-family: "Ubuntu",sans-serif;
+            font-weight: 500;
+            color: #000;
+        }
+        .signup_button_style{
+            color: #fff;
+            background-color: #ee3425;
+            border: 1px solid #ee3425;
+            min-width: 72px;
+            height: 36px;
+            padding: 4px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.2;
+            
+            border-radius: 8px;
+            outline: none;
+            font-family: "PT Sans",sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .header_text{
+            font-family: "Ubuntu",sans-serif;
+            font-weight:500;
+            color: #000;
+        }
+        .frontPage_Content{
+            background-color: white;
+        }
+        .section_1_HomePage_header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            padding-top: 57px;
+            margin-top: -57px;
+            background: url('./images/home-banner-background-1.jpeg');
+            background-repeat: no-repeat;
+            background-color: #fbdc00;;
+            background-position: 50%;
+            background-size: 100%;
+        }
+        .section_2{
+            margin-left: auto;
+            margin-right: auto;
+            padding: 16px;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-between;
+            justify-content: space-evenly;
+            padding-top: 50px;
+            margin-bottom: -40px;
+        }
+        .subsection_2_a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .subsection_2_b{
+            color: #ee3425;
+            margin-bottom: 0px;
+            font-size: 45px;
+        }
+        .section_3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+            background: #fffef2;
+        }
+        .subsection_3_a{
+            display: flex;
+            align-items: center;
+            padding: 16px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .globe_image{
+            display: block;
+            width: 500px;
+            
+            object-fit: contain;
+            height: 100%;
+        }
+    </style>
 </head>
-<body>
-    
+<body style="margin: 0px;">
+<div class="outer_div">
+
+    <!-- ######### NAV BAR ######### -->
+    <div class="navBar">
+        <div style="margin-left: auto;">
+        <img src="./svgIcons/logo.svg" width="120" height="36"/>
+        </div>
+        <div style="margin-left: auto;margin-right: auto;">
+        <ul class="unordered_list">
+            <li class="list_items">
+                <div class="list_item_container">
+                    Products
+                    <img src="./svgIcons/dropDown.svg" style="margin-left: 4px;font-size: 10px;"/> 
+                </div>
+            </li>
+            <li class="list_items">
+                <div class="list_item_container">
+                    Partners
+                    <img src="./svgIcons/dropDown.svg" style="margin-left: 4px;font-size: 10px;"/> 
+                </div>
+            </li>
+            <li class="list_items">
+                <div class="list_item_container">
+                    Company
+                    <img src="./svgIcons/dropDown.svg" style="margin-left: 4px;font-size: 10px;"/> 
+                </div>
+            </li>
+            <li class="list_items">
+                <div class="list_item_container">
+                    <div>Knowledge</div>
+                    <div style="margin-left: 2px;">Center</div>
+                    <img src="./svgIcons/dropDown.svg" style="margin-left: 4px;font-size: 10px;"/> 
+                </div>
+            </li>
+            <li style="width: 100%; margin-left: 40px;">Contact Us</li>
+        </ul>
+        </div>
+        
+        <div class="login_signup_container">
+            <div class="login_container">
+            <img src="./svgIcons/login.svg" style="margin-right: 5px;" height="22" width="22"/>
+            <p class="header_text">login</p>
+            </div>
+            <button class="signup_button_style" style="width: 100%;">Sign Up</button>
+        </div>
+        
+    </div>
+
+    <!-- ######### CONTENT ON FRONT PAGE ######### -->
+    <div class="frontPage_Content">
+
+        <!-- ######### Section-1 :- Header ######### -->
+        <div class="section_1_HomePage_header">
+            <div style="margin-left: auto; margin-right: auto; padding: 16px; display: flex;">
+            
+                <!-- ######### LHS Content ######### -->
+            <div style="display: flex;justify-content: center; align-items: center;">
+            <div style="display: block;">
+               <h1 style="font-size: 45px;">Grow Faster, Go Global.</h1>
+                <p style="font-size: 18px; color: #434343;">Strengthen your Supply Chain, and Scale your Business<br>
+                with Reliable Shipping and Cashflows.</p>
+                <div>
+                <button class="signup_button_style">Get Started</button>
+                </div>
+            </div>
+            </div>
+
+            <!-- ######### RHS Content / Image ######### -->
+            <div>
+                <img src="./images/home-banner-image1.jpeg" height="500" style="margin-bottom: -56px;"/>
+            </div>
+
+            </div>
+        </div>
+        <!-- ######### Section-2 ######### -->
+        <div class="section_2">
+            <div class="subsection_2_a">
+                <h1 class="subsection_2_b"><span>110</span>+</h1>
+                <h3>Countries Served</h3>
+            </div>
+            <div class="subsection_2_a">
+                <h1 class="subsection_2_b"><span>8,000</span></h1>
+                <h3>Ports Pairs Served</h3>
+            </div>
+            <div class="subsection_2_a">
+                <h1 class="subsection_2_b"><span>12,500</span></h1>
+                <h3>Tons of Air Cargo Moved</h3>
+            </div>
+            <div class="subsection_2_a">
+                <h1 class="subsection_2_b"><span>500,000</span></h1>
+                <h3>Containers Moved</h3>
+            </div>
+        </div>
+        <div style="background-color: white;">
+            <div style="width: 100%; height: 100px;"></div>
+        </div>
+
+        <!-- ######### Section-3 ######### -->
+        <div class="section_3" style="align-items: center;">
+            <div style="margin-top: 40px;">
+                <div class="subsection_3_a">
+                    <div>
+                        <h1 style="font-size: 45px; margin-bottom: 10px;color: #000; ">One Stop Solution for Your<br>Supply Chain</h1>
+                        <p style="font-size: 18x; margin-top: 0px;">Connected Shipping, Finance, and Trade-tech, to Power Global Trade and Supply Chains.</p>
+                    </div>
+                    <div style="display: flex;justify-content: flex-end; color: #434343;">
+                        <img class="globe_image" src="./images/map-supply-chain.jpeg"/>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        
+    </div>
+</div>
 </body>
 </html>
