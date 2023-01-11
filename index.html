@@ -263,6 +263,47 @@
             margin-right: auto;
             padding: 16px;
         }
+        .section_8{
+            margin-left: auto;
+            margin-right: auto;
+            padding: 16px;
+        }
+        .section_8_a{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-right: -10px;
+            margin-left: -10px;
+        }
+        .section_8_b{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .section_8_cards{
+            width: calc(calc(100% / 3) - 120px);
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+            overflow: hidden;
+            text-align: start;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
+        }
+        .section_8_cards_img{
+            display: block;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .section_8_cards_txt{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px 16px;
+        }
     </style>
 </head>
 <body style="margin: 0px;">
@@ -661,7 +702,7 @@
         <div style="margin-bottom: 50px;">
             <div class="section_6">
                 <div>
-                    <h2 style="font-size: 40px;margin-top: 0;margin-bottom: 10pxm;">Get Started Today</h2>
+                    <h2 style="font-size: 40px;margin-top: 0;margin-bottom: 10px;">Get Started Today</h2>
                     <p style="font-size: 16px;margin-top: 0;margin-bottom: 1em;color: #434343;">Plan, Book and Finance your shipment in one place.</p>
                     <p style="font-size: 16px;margin-top: 0;margin-bottom: 1em;color: #434343;">Experience how Cogoport’s Global Trade Platform can Turbocharge your Business.</p>
                     <div>
@@ -696,6 +737,68 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="section_8">
+            <div style="display: flex; flex-direction: column;">
+                <h2 style="font-size: 32px;margin-top: 0;margin-bottom: 1em;text-align:center">Blogs</h2>
+                <div class="section_8_a">
+                    <div class="section_8_cards">
+                        <div>
+                            <img src="./images//Blog_1.jpg" class="section_8_cards_img"/>
+                            <div class="section_8_cards_txt">
+                                <h2 style="margin-bottom: 5px;font-size: 16px;color:#ee3425;margin-top: 0;">Industry Trends</h2>
+                                <h2 style="margin-bottom: 5px;font-size: 18px;color:#000;margin-top: 0;">2022: Year in Review</h2>
+                                <p style="font-size: 16px;margin-top: 0;margin-bottom: 1em;color: #000;max-height: calc(1.4rem * 3);">
+                                    Since mid-2021, issues with semiconductor chip availability have limited the production of a variety of electronic and automobile items.
+                                </p>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <span style="display: flex; align-items: center;color: #ee3425;font-weight: 700;">Read More <img src="./svgIcons/rightArrow.svg" style="margin-left: 5px;"/></span>
+                                    <h4 style="margin-bottom: 5px;font-size: 14px;color:#9a9a9a;margin-top: 0;">30 December 2022</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section_8_cards">
+                        <div>
+                            <img src="./images//Blog_2.jpg" class="section_8_cards_img"/>
+                            <div class="section_8_cards_txt">
+                                <h2 style="margin-bottom: 5px;font-size: 16px;color:#ee3425;margin-top: 0;">Industry Basics</h2>
+                                <h2 style="margin-bottom: 5px;font-size: 18px;color:#000;margin-top: 0;">Bullwhip Effect</h2>
+                                <p style="font-size: 16px;margin-top: 0;margin-bottom: 1em;color: #000;max-height: calc(1.4rem * 3);">
+                                    The firms closest to the consumer will increase inventory in response to rising demand. The front end of the supply chain will reduce inventory when demand declines, compounding the extra inventory on each company further up the supply chain.
+                                </p>
+                                <div style="display: flex; align-items: center; justify-content: space-between;margin-top: 15px;">
+                                    <span style="display: flex; align-items: center;color: #ee3425;font-weight: 700;">Read More <img src="./svgIcons/rightArrow.svg" style="margin-left: 5px;"/></span>
+                                    <h4 style="margin-bottom: 5px;font-size: 14px;color:#9a9a9a;margin-top: 0;">30 December 2022</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section_8_cards">
+                        <div>
+                            <img src="./images//Blog_3.jpg" class="section_8_cards_img"/>
+                            <div class="section_8_cards_txt">
+                                <h2 style="margin-bottom: 5px;font-size: 16px;color:#ee3425;margin-top: 0;">Industry Trends</h2>
+                                <h2 style="margin-bottom: 5px;font-size: 18px;color:#000;margin-top: 0;">Switch Bill of Lading</h2>
+                                <p style="font-size: 16px;margin-top: 0;margin-bottom: 1em;color: #000;max-height: calc(1.4rem * 3);">
+                                    BL must be revised to reflect modifications to the destination ports and the descriptions of the cargo, or in which shippers may wish to omit the supplier's name from the bill.
+                                </p>
+                                <div style="display: flex; align-items: center; justify-content: space-between;">
+                                    <span style="display: flex; align-items: center;color: #ee3425;font-weight: 700;">Read More <img src="./svgIcons/rightArrow.svg" style="margin-left: 5px;"/></span>
+                                    <h4 style="margin-bottom: 5px;font-size: 14px;color:#9a9a9a;margin-top: 0;">23 December 2022</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_8_b">
+                    <div>
+                        <button class="signup_button_style" style="border-radius: 4px;"><span style="margin-left: 20px;margin-right: 20px;">View All</span></button>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
