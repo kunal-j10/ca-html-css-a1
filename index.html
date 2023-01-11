@@ -142,6 +142,127 @@
             object-fit: contain;
             height: 100%;
         }
+        .subsection_3_b{
+            display: flex;
+            align-items: center;
+            margin: 14px 0;
+        }
+        .subsection_3_c{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 184px;
+            height: 160px;
+            padding: 10px 7px;
+            margin: 10px;
+            background: #fff;
+            border: 1.5px solid transparent;
+            border-radius: 10px;
+            box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+        }
+        .svgSubText{
+            margin-top: 5px;
+            font-size: 16px;
+            text-align: center;
+            color: #000;
+        }
+        .svgSubText_2{
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            font-weight: 600;
+            color: #ee3425;
+            cursor: pointer;
+        }
+        .section_4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        .section4_button_style{
+            width: 200px;
+            padding: 20px;
+            margin: 0 20px;
+            color: #000;
+            background-color: #fbdc00;
+            border: #fbdc00;
+            border-radius: 20px;
+            min-width: 72px;
+            height: 36px;
+            outline: none;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+            font-family: "PT Sans",sans-serif;;
+            font-weight: 700;
+        }
+        .subsection_4_a{
+            width: 300px;
+            padding: 16px;
+            border-radius: 10px;
+            box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+        }
+        .subsection_4_b{
+            font-weight: 600;
+            color: #ee3425;
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 1em;
+        }
+        .subsection_4_c{
+            display: flex;
+            align-items: center;
+            padding: 0 0 10px;
+            margin: 0;
+            list-style-position: outside;
+        }
+        .section_5{
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-between;
+            justify-content: space-evenly;
+        }
+        .subsection_5_a{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        .section_6{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 16px 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .section_7_a{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0,0,0,.4);
+        }
+        .section_7_b{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 16px;
+        }
     </style>
 </head>
 <body style="margin: 0px;">
@@ -255,9 +376,327 @@
                     </div>
                 </div>
             </div>
-            <div></div>
+            <div>
+                <h2 style="text-align: center;font-size: 32px;margin-top: 0;">Our Products</h2>
+                <div style="display: flex;justify-content: space-between;">
+                    <div style="display: flex; flex-direction: column;">
+                        <div class="subsection_3_b">
+                            <h3 style="color: #000; font-size: 24px; margin-right: 50px; width: 300px;">End to End Cross Border Logistics</h3>
+                            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                <!-- ######### Card ######### -->
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/svg_a.svg"/>
+                                    <h4 class="svgSubText">Ocean: FCL</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/svg_a.svg"/>
+                                    <h4 class="svgSubText">Ocean: LCL</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/International_air.svg"/>
+                                    <h4 class="svgSubText">International Air</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/custom_CFS.svg"/>
+                                    <h4 class="svgSubText">Customs, CFS, & Handling</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subsection_3_b">
+                            <h3 style="color: #000; font-size: 24px; margin-right: 50px; width: 300px;">Domestic Logistics</h3>
+                            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/domestic_a.svg"/>
+                                    <h4 class="svgSubText">FTL, PTL</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/domestic_b.svg"/>
+                                    <h4 class="svgSubText">Trailer & Rail Container Haulage</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subsection_3_b">
+                            <h3 style="color: #000; font-size: 24px; margin-right: 50px; width: 300px;">Supply Chain Solutions</h3>
+                            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/supply_a.svg"/>
+                                    <h4 class="svgSubText">FTL, PTL</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">CogoAssured </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/supply_b.svg"/>
+                                    <h4 class="svgSubText">Domestic Fulfilment</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/supply_c.svg"/>
+                                    <h4 class="svgSubText">Door to Door Shipments</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="subsection_3_b">
+                            <h3 style="color: #000; font-size: 24px; margin-right: 50px; width: 300px;">Financial Services</h3>
+                            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/financial_a.svg"/>
+                                    <h4 class="svgSubText">Pay Later</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+                                <div class="subsection_3_c">
+                                    <img src="./svgIcons/financial_b.svg"/>
+                                    <h4 class="svgSubText">Export Factoring</h4>
+                                    <span class="svgSubText_2">
+                                        <span style="margin-right: 4px;">Find Out More </span>
+                                        <img src="./svgIcons/rightArrow.svg" style="margin-right: 5px;"/>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 50px;">
+            <h2 style="text-align: center;font-size: 32px;margin-top: 0;">Trusted by</h2>
+            <div style="display: flex; align-items: center; justify-content: space-around;" >
+                <img style="width: 100px; height: 100%;" src="./images/img1.jpeg"/>
+                <img style="width: 100px; height: 100%;" src="./images/img2.jpeg"/>
+                <img style="width: 100px; height: 100%;" src="./images/img3.jpeg"/>
+                <img style="width: 100px; height: 100%;" src="./images/img4.jpeg"/>
+                <img style="width: 100px; height: 100%;" src="./images/img5.jpeg"/>
+                <img style="width: 100px; height: 100%;" src="./images/img6.jpeg"/>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 50px; background-color: #fbdc00;">
+            <div style="display: flex;align-items: center;justify-content: space-evenly;">
+                <div style="padding: 25px 0;">
+                    <h2 style="margin-bottom: 10px; margin-top: 0px; font-size: 32px;">Ready to take your Supply Chain to the Next Level?</h2>
+                </div>
+                <div>
+                    <div>
+                        <button class="signup_button_style">Get Started</button>
+                    </div>
+                </div>
+            </div>
         </div>
         
+        <div>
+            <div class="section_4">
+                <h2 style="margin-bottom: 1em; margin-top: 0px; font-size: 32px;">How it Works</h2>
+                <div style="display: flex;justify-content: space-between;">
+                    <button class="section4_button_style"><span>Cargo Owners</span></button>
+                    <button class="section4_button_style" style="background-color:#e5dfdf; border: #808080;"><span>For Logistics Partners</span></button>
+                </div>
+                <div>
+                    <div style="display: flex; position: relative;">
+                        <div>
+                            <div class="subsection_4_a" style="margin-bottom: 120px;">
+                                <p class="subsection_4_b">Stage 1:</p>
+                                <div class="subsection_4_c">
+                                    <img src="./svgIcons/discover.svg"/>
+                                    <div style="padding-left: 8px;font-size: 20px;font-weight: 600;">Discover</div>
+                                </div>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Spot and Contract Rates for Logistics</p>
+                                </span>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Service details, Trade Compliance/ Regulatory Requirements</p>
+                                </span>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</p>
+                                </span>
+                            </div>
+                            <div style="position: absolute; top: 104px;left: 300px;">
+                                <img style="width: 150px; height: 60px;" src="./images/linearrow1.png"/>
+                            </div>
+                            <div class="subsection_4_a">
+                                <p class="subsection_4_b">Stage 2:</p>
+                                <div class="subsection_4_c">
+                                    <img src="./svgIcons/stage2.svg"/>
+                                    <div style="padding-left: 8px;font-size: 20px;font-weight: 600;">Plan & Book</div>
+                                </div>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Route, Service Schedules, Inventory, and Cashflow planning</p>
+                                </span>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Book with upfront visibility of service terms and inclusions</p>
+                                </span>
+                            </div>
+                            <div style="position: absolute; bottom: 116px;left: 300px;">
+                                <img style="width: 150px; height: 60px;" src="./images/linearrow2.png"/>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center;justify-content: center;">
+                            <img src="./images/homepagem1.png" width="560px" height="320px"/>
+                        </div>
+
+                        <div>
+                            <div style="position: absolute; top: 104px;right: 300px;">
+                                <img style="width: 150px; height: 60px;" src="./images/linearrow.png"/>
+                            </div>
+                            <div class="subsection_4_a" style="margin-bottom: 120px;">
+                                <p class="subsection_4_b">Stage 3:</p>
+                                <div class="subsection_4_c">
+                                    <img src="./svgIcons/execute.svg"/>
+                                    <div style="padding-left: 8px;font-size: 20px;font-weight: 600;">Execute</div>
+                                </div>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Ocean and Air Cargo Tracking</p>
+                                </span>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Documentation and Filings, Handled</p>
+                                </span>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Multi-modal: Smooth coordination and handovers between various service providers and stakeholders</p>
+                                </span>
+                            </div>
+                            <div style="position: absolute; bottom: 116px;right: 300px;">
+                                <img style="width: 150px; height: 60px;" src="./images/linearrow4.png"/>
+                            </div>
+                            <div class="subsection_4_a" style="margin-bottom: 120px;">
+                                <p class="subsection_4_b">Stage 4:</p>
+                                <div class="subsection_4_c">
+                                    <img src="./svgIcons/finance.svg"/>
+                                    <div style="padding-left: 8px;font-size: 20px;font-weight: 600;">Finance</div>
+                                </div>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Deferred payment on Logistics with PayLater</p>
+                                </span>
+                                <span style="display: flex;">
+                                    <div>•</div>
+                                    <p style="margin: 0; padding-left: 8px;padding-bottom: 5px;font-size: 16px;">Trade Finance for your Cargo with Export Factoring</p>
+                                </span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section-5 -->
+        <div style="padding: 16px;margin-bottom: 50px;">
+            <div style="margin-left: auto;margin-right: auto;padding: 16px;">
+                
+                <h2 style="text-align: center;font-size: 32px;margin-top: 0;margin-bottom: 1em;">Industries Served</h2>
+                <div class="section_5">
+                    <div class="subsection_5_a">
+                        <img src="./images/chemical.svg" class="subsection_5_a"/>
+                    </div>
+                    <div class="subsection_5_a">
+                        <img src="./images/paracetamol.svg" class="subsection_5_a"/>
+                    </div>
+                    <div class="subsection_5_a">
+                        <img src="./images/electronics.svg" class="subsection_5_a"/>
+                    </div>
+                    <div class="subsection_5_a">
+                        <img src="./images/whitegoods.svg" class="subsection_5_a"/>
+                    </div>
+                    <div class="subsection_5_a">
+                        <img src="./images/textiles.svg" class="subsection_5_a"/>
+                    </div>
+                    <div class="subsection_5_a">
+                        <img src="./images/manufactoring.svg" class="subsection_5_a"/>
+                    </div>
+                    <div class="subsection_5_a">
+                        <img src="./images/agriculture.svg" class="subsection_5_a"/>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
+
+        <div style="margin-bottom: 50px;">
+            <div class="section_6">
+                <div>
+                    <h2 style="font-size: 40px;margin-top: 0;margin-bottom: 10pxm;">Get Started Today</h2>
+                    <p style="font-size: 16px;margin-top: 0;margin-bottom: 1em;color: #434343;">Plan, Book and Finance your shipment in one place.</p>
+                    <p style="font-size: 16px;margin-top: 0;margin-bottom: 1em;color: #434343;">Experience how Cogoport’s Global Trade Platform can Turbocharge your Business.</p>
+                    <div>
+                        <button class="signup_button_style">Get Started</button>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: flex-end;">
+                    <img src="./images/trade-tech-home-1.jpeg" style="display: block; object-fit: contain; height: 360px;width: 280px;"/>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 50px;">
+            <div style="position: relative; height: 450px;">
+                <img src="./images/homepage-video.png" style="height: 100%; width: 100%; object-fit: cover;"/>
+                <div class="section_7_a">
+                    <img src="./images/play-button-white.png" style="height: 60px; width: 60px;margin-bottom: 8px; "/>
+                </div>
+            </div>
+            <div style="background: #ee3425;">
+                <div class="section_7_b">
+                    <div style="padding: 25px 0;">
+                        <h3 style="margin-bottom: 10px; color: white;font-size: 32px; margin-top: 0;">Grow Faster with Cogoport</h3>
+                        <p style="font-size: 16px;margin-top: 0;margin-bottom: 1em;color: white;">Know more about Cogoport’s Global Trade Platform<sup>TM</sup></p>
+                    </div>
+                    <div>
+                        <button class="signup_button_style" style="background-color: #fbdc00; color:#000 ;">
+                            <div>Know More
+                                <!-- <img src="./svgIcons/rightArrow.svg"/> -->
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
